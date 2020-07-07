@@ -1,0 +1,31 @@
+{
+  "name": "file-storage-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev-start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victordaniel102/file-storage-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victordaniel102/file-storage-api/issues"
+  },
+  "homepage": "https://github.com/victordaniel102/file-storage-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.710.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "nodemon": "^2.0.4"
+  }
+}
